@@ -53,17 +53,29 @@ nav ul li:hover a {
 }
 
 .navbar {
-    width: 200px;
+    width: 250px;
     height: 50%;
     background-color: #ff0000;
     position: fixed;
     top: 0;
-    right: 100px;
+    right: -250px;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: right .8s cubic-bezier(1. 0. 0. 1);
+   }
+
+.container {
+  text-align:center;
+  /* perfect centering */
+  left:50%;
+  top:50%;
+  position: absolute;
+  transform:translate(-50%,-50%);
+  width:100%;
+  max-width:350px;
 }
+
 
 .change {
     right: 0;
@@ -80,6 +92,8 @@ nav ul li:hover a {
     flex-direction: column;
     justify-content: space-around;
 }
+
+
 
 .line {
     width: 100%;
@@ -149,3 +163,102 @@ nav ul li:hover a {
 
 
 }
+
+
+i {
+    padding:20px;
+    background: rgba(255,255,255,.75);
+    border-radius:3px;
+    color:#6fabbc;
+    transition:.25s;
+    animation: 1.25s bounce infinite;
+  }
+
+  i:hover {
+    cursor:pointer;
+    background: rgba(255,255,255,.95);
+    animation-play-state: paused;
+  }
+
+
+/* TESTE */
+
+#menu__toggle {
+    opacity: 0;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    left: 0 !important;
+  }
+  .menu__btn {
+    position: fixed;
+    top: 40px;
+    right: 250px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fa8072;
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 250px;
+    height: 30%;
+    margin: 0 1400px;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #ECEFF1;
+    box-shadow: 2px 2px 6px rgba(172, 97, 97, 0.4);
+    transition-duration: .25s;
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #0e8d88;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+
+
+.material-symbols-outlined {
+    color: #fa8072;
+    }
+
+
+
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
