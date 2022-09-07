@@ -268,3 +268,197 @@ transition: 1s;
 }
 
 /*Final aplicativos*/
+
+/*inicio como funciona*/
+
+.numero-circulo {
+  width: 30px;
+  height: 30px;
+  border: solid 1px black;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-weight: bold;
+  background-color: #EEEEEE;
+  color: black;
+}
+
+.indicacao {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.indicacao button {
+  padding: 5px;
+  border-radius: 7px;
+  border: solid 1px black;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+h1 {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.caixa {
+  display: block;
+  
+  width: 50%;
+  margin-top: 30px;
+}
+
+.caixa-circulo{
+  display: flex;
+}
+
+.texto {
+  margin-top: 55px;
+  margin-left: 10px;
+  font-weight: bold;
+
+}
+
+.linha {
+  width: 1px;
+  height: 35px;
+  background-color: gray;
+  position: absolute;
+  margin-left: 35px;
+  border-radius: 2px;
+  margin-top: 8px;
+}
+
+/*final de como funciona*/
+
+/*sepração de página*/
+#separacao{
+  position: absolute;
+  display: flex ;
+width: 100%;
+}
+
+#divisao{
+  width: 100%;
+  height: 3px;
+  background-color: #EEEEEE;
+  margin-top: 20px;
+  padding: 2px;
+  border-radius: 20px;
+  position: relative;
+  margin-right: 10px;
+}
+
+.divisao-continua{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #EEEEEE;
+  margin-right: 10px;
+  position: relative;
+  margin-top: 18px;
+}
+
+#agende{
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  border: solid 1px black;
+}
+
+#btn-agendamento {
+  margin-top: 70px;
+  text-align: center;
+  
+}
+/*final de separa de página*/
+
+/*nossos parceiros*/
+
+.card-image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 10%;
+}
+
+.card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10%;
+  border: solid 2px #EEEEEE;
+  padding: 5px;
+}
+
+.slide-content{
+  margin: 0 40px;
+
+}
+.card{
+  border-radius: 5%;
+  background-color:#0e8d88;
+  width: 300px;
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.image-content,
+.card-content{
+  display: flex;
+  padding: 10px 14px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-content{
+  row-gap: 5px;
+  position: relative;
+}
+
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #fa8072;
+  border-radius: 10px 10px 0 25px;
+}
+
+.overlay::before,
+.overlay::after{
+  position: absolute;
+  content: '';
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #fa8072
+
+}
+
+.overlay::after{
+  border-radius: 0 25px 0 0;
+  background-color: #0e8d88;
+}
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+
+.descricao{
+  font-size: 14px;
+  color: black;
+  text-align: center;
+}
+
+#parceiros{
+  margin-top: 40px;
+  margin-left: 20px;
+}
