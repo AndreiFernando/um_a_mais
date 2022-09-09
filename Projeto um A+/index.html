@@ -9,7 +9,7 @@
   <meta name="keywords" content="sangue, vida, pontos, parceiros">
   <meta name="author" content="Allan Lopes, Andrei Fernando, Vinicius">
   <script src="https://kit.fontawesome.com/46de3b630b.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="./css/estilo.css">
   <!--ícones-->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -25,7 +25,10 @@
         'opsz'48
     }
   </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
   <title>Um A+</title>
+
 </head>
 
 <body>
@@ -101,7 +104,7 @@
       <img src="./img/apllestore2.png" alt="aplle store">
     </div>
   </div>
-
+  <!--como funciona-->
   <h1>como funciona?</h1>
   <section class="indicacao">
     <button>pontos por doação</button>
@@ -154,12 +157,12 @@
   <!--final como funciona-->
 
   <!--nossos parceiros-->
-  <h2 id="parceiros">nossos parceiros:</h2>
+  <h2 id="titulos">nossos parceiros:</h2>
 
-  <div class="slide-container">
+  <div class="slide-container swiper">
     <div class="slide-content">
-      <div class="card-wrapper">
-        <div class="card">
+      <div class="card-wrapper swiper-wrapper">
+        <div id="card" class="swiper-slide">
           <div class="image-content">
             <span class="overlay"></span>
             <div class="card-image">
@@ -173,18 +176,188 @@
               provident inventore natus libero? Possimus, alias.</p>
           </div>
         </div>
+        <div id="card" class="swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+            <div class="card-image">
+              <img src="img/catavento.jfif" alt="logo da cinemark" class="card-img">
+            </div>
+          </div>
+          <div class="card-content">
+            <h2 class="name">Catavento</h2>
+            <p class="descricao"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, recusandae illo.
+              Nulla dignissimos pariatur perspiciatis minus iste accusamus sunt, sapiente nam aliquam excepturi ea
+              provident inventore natus libero? Possimus, alias.</p>
+          </div>
+        </div>
+        <div id="card" class="swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+            <div class="card-image">
+              <img src="img/99.jpg" alt="logo da cinemark" class="card-img">
+            </div>
+          </div>
+          <div class="card-content">
+            <h2 class="name">99</h2>
+            <p class="descricao"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, recusandae illo.
+              Nulla dignissimos pariatur perspiciatis minus iste accusamus sunt, sapiente nam aliquam excepturi ea
+              provident inventore natus libero? Possimus, alias.</p>
+          </div>
+        </div>
+        <div id="card" class="swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+            <div class="card-image">
+              <img src="img/alura.png" alt="logo da cinemark" class="card-img">
+            </div>
+          </div>
+          <div class="card-content">
+            <h2 class="name">Alura</h2>
+            <p class="descricao"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, recusandae illo.
+              Nulla dignissimos pariatur perspiciatis minus iste accusamus sunt, sapiente nam aliquam excepturi ea
+              provident inventore natus libero? Possimus, alias.</p>
+          </div>
+        </div>
+        <div id="card" class="swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+            <div class="card-image">
+              <img src="img/masp.jpg" alt="logo da cinemark" class="card-img">
+            </div>
+          </div>
+          <div class="card-content">
+            <h2 class="name">Masp</h2>
+            <p class="descricao"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, recusandae illo.
+              Nulla dignissimos pariatur perspiciatis minus iste accusamus sunt, sapiente nam aliquam excepturi ea
+              provident inventore natus libero? Possimus, alias.</p>
+          </div>
+        </div>
+        <div id="card" class="swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+            <div class="card-image">
+              <img src="img/senac.png" alt="logo da cinemark" class="card-img">
+            </div>
+          </div>
+          <div class="card-content">
+            <h2 class="name">Senac</h2>
+            <p class="descricao"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, recusandae illo.
+              Nulla dignissimos pariatur perspiciatis minus iste accusamus sunt, sapiente nam aliquam excepturi ea
+              provident inventore natus libero? Possimus, alias.</p>
+          </div>
+        </div>
+        <div id="card" class="swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+            <div class="card-image">
+              <img src="img/ticket360.jpg" alt="logo da cinemark" class="card-img">
+            </div>
+          </div>
+          <div class="card-content">
+            <h2 class="name">Ticket360</h2>
+            <p class="descricao"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, recusandae illo.
+              Nulla dignissimos pariatur perspiciatis minus iste accusamus sunt, sapiente nam aliquam excepturi ea
+              provident inventore natus libero? Possimus, alias.</p>
+          </div>
+        </div>
+        <div id="card" class="swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+            <div class="card-image">
+              <img src="img/uber.png" alt="logo da cinemark" class="card-img">
+            </div>
+          </div>
+          <div class="card-content">
+            <h2 class="name">Uber</h2>
+            <p class="descricao"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, recusandae illo.
+              Nulla dignissimos pariatur perspiciatis minus iste accusamus sunt, sapiente nam aliquam excepturi ea
+              provident inventore natus libero? Possimus, alias.</p>
+          </div>
+        </div>
       </div>
     </div>
-
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
 
   </div>
+  <!--final parceiros-->
+  <!--opinião clientes-->
+  <h2 id="titulos">vejam o que os nossos clientes acham:</h2>
+
 
   <footer>
-
-
-
+    <div class="row">
+      <div class="col">
+        <img src="./img/LogoUmA+.png" class="logo">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro debitis natus repellat illum at libero
+          dolorum.
+        </p>
+      </div>
+      <div class="col">
+        <h3>Sede</h3>
+        <p>Rua Tito, 54 - Lapa</p>
+        <p>São Paulo - SP</p>
+        <p class="email-id">umamais@umamais.com.br</p>
+        <h4>+55 (11) 9999-9999</h4>
+      </div>
+      <div class="col">
+        <h3>Links</h3>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+          <li><a href="./parceiros.html">Parceiros</a></li>
+          <li><a href="./quemsomos.html">Quem somos</a></li>
+          <li><a href="./suportefaq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="redes-sociais">
+        <img src="./img/facebook.png" class="logos">
+        <img src="./img/instagram.png" class="logos">
+        <img src="./img/whatsapp.png" class="logos">
+        <img src="./img/linkedin.png" class="logos">
+        <img src="./img/twitters.png" class="logos">
+      </div>
+    </div>
+    <hr>
+    <p class="rodape">CNPJ: 00.000.000/0000-00 | Todos os direitos reservados @ 2022</p>
   </footer>
-  <script src="script.js"></script>
+  <script src="./js/script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".slide-content", {
+      slidesPerView: 2,
+      spaceBetween: 25,
+      loop: true,
+      centerSlide: 'true',
+      fade: 'true',
+      grabCursor: 'true',
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        520: {
+          slidesPerView: 2,
+        },
+        950: {
+          slidesPerView: 5,
+        },
+      },
+    });
+  </script>
+
 </body>
 
 </html>

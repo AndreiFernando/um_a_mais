@@ -2,7 +2,7 @@
 let count = 1;
 document.getElementById("radio1").checked = true;
 
-setInterval( function () {
+setInterval(function () {
     nextImage();
 }, 3000)
 
@@ -15,4 +15,6 @@ function nextImage() {
     document.getElementById("radio" + count).checked = true;
 }
 //Final do carrosel
+
+//depoimentos
 
