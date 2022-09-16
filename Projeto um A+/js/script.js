@@ -16,5 +16,4 @@ function nextImage() {
 }
 //Final do carrosel
 
-//depoimentos
 
