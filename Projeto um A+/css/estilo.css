@@ -49,6 +49,13 @@ nav ul li:hover a {
   background-color: #ffffff3b;
 }
 
+@media only screen and (max-width:940px){
+nav ul li{
+  display: none;
+
+}
+
+}
 /*Final da barra de navegação*/
 
 /* Menu hamburguer
@@ -855,7 +862,7 @@ justify-content: center;
 right: 0;
 }
 
-@media only screen and (max-widht:1000px){
+@media only screen and (max-width:1000px){
   .change {
     width: 40%;
 
@@ -863,10 +870,15 @@ right: 0;
 
 }
 
-@media only screen and (max-widht:500px){
+@media only screen and (max-width:500px){
   .change {
     width: 100%;
     
   }
 
 }
+
+/*final menu hamburguer*/
+
+/*inicio quem somos*/
+

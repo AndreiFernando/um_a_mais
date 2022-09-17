@@ -27,12 +27,26 @@
       <li><a href="suportefaq.html">suporte/FAQ</a></li>
       <li><a href="minhaconta.html">minha conta</a></li>
     </ul>
-
-    <!--Menu hamburguer-->
-
   </nav>
 
-  <div class="hamburger-menu">
+  <!--menu hamburguer-->
+  <div class="navigation">
+    <div id="menu" onclick="onClickMenu()">
+      <div id="bar1" class="bar"></div>
+      <div id="bar2" class="bar"></div>
+      <div id="bar3" class="bar"></div>
+    </div>
+    <ul class="menunav" id="nav">
+      <li><a href="parceiros.html">parceiros</a></li>
+      <li><a href="hemocentros.html">hemocentros</a></li>
+      <li><a href="configuracoes.html">configurações</a></li>
+      <li><a href="contato.html">contatos</a></li>
+    </ul>
+  </div>
+<!--final menu hamburguer-->
+
+
+  <!--<div class="hamburger-menu">
     <input id="menu__toggle" type="checkbox" />
     <label class="menu__btn" for="menu__toggle">
       <span></span>
@@ -56,7 +70,9 @@
         'GRAD'0,
         'opsz'48
     }
-  </style>
+  </style>-->
+
+
 <!--inicio faq-->
   <section class="perguntas">
     <h2 class="title">FAQs</h2>
@@ -183,6 +199,7 @@
     <p class="rodape">CNPJ: 00.000.000/0000-00 | Todos os direitos reservados @ 2022</p>
   </footer>
 
+  <script src="./js/script.js"></script>
   <script>
 
 const faqs = document.querySelectorAll(".faq");
