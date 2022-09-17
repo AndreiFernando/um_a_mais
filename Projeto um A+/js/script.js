@@ -16,4 +16,3 @@ function nextImage() {
 }
 //Final do carrosel
 
-
