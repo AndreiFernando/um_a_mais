@@ -4,14 +4,18 @@
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
+  
 }
+body {
+  background-image: url(../img/back.jpeg);
 
+}
 /*barra de navegação*/
 nav {
   display: flex;
   width: 100%;
   background-color: #0e8d88;
-  position:fixed;
+  position: fixed;
   align-items: center;
   padding: 0px 30px;
   z-index: 999;
@@ -49,13 +53,14 @@ nav ul li:hover a {
   background-color: #ffffff3b;
 }
 
-@media only screen and (max-width:940px){
-nav ul li{
-  display: none;
+@media only screen and (max-width:660px) {
+  nav ul li {
+    display: none;
+
+  }
 
 }
 
-}
 /*Final da barra de navegação*/
 
 /* Menu hamburguer
@@ -357,6 +362,17 @@ h1 {
 .mensagem {
   margin-left: 20px;
   text-align: center;
+  width: 150px;
+}
+
+@media only screen and (max-width:850px) {
+  .mensagem p {
+    display: none;
+
+  }
+  .linha {
+    display: none;
+  }
 }
 
 /*final de como funciona*/
@@ -779,6 +795,7 @@ svg {
     transform: translateY(0px);
   }
 }
+
 /* inicio menu hamburguer*/
 #menu {
   width: 35px;
@@ -830,6 +847,7 @@ svg {
   margin: 0 20px;
   display: none;
 }
+
 .icon .bar {
   background-color: #fa8072;
 }
@@ -847,22 +865,22 @@ svg {
 }
 
 .change {
-background-color: #EEEEEE;
-height: 50vh;
-margin: 0;
-position: fixed;
-font-size: 25px;
-top: 0;
-z-index:999;
-width: 20%;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-right: 0;
+  background-color: #EEEEEE;
+  height: 50vh;
+  margin: 0;
+  position: fixed;
+  font-size: 25px;
+  top: 0;
+  z-index: 999;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  right: 0;
 }
 
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:1000px) {
   .change {
     width: 40%;
 
@@ -870,10 +888,10 @@ right: 0;
 
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:500px) {
   .change {
     width: 100%;
-    
+
   }
 
 }
