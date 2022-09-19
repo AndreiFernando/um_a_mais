@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta nome="viewport" content="width=device-width, initial-scale=1">
+    <title>Minha conta</title>
+    <link rel="stylesheet" href="css/estilos.css"> <!-- 1o CSS Reset -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header id="header">
+        <a id="logo" href=""><img src="imagem/LogoUmA+.png"></a>
+        <nav id="nav">
+
+            <Ul id="menu">
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Suporte/FAQ</a></li>
+                <li><a href="#">Minha conta</a></li>
+                <!--<li><a href="#">Parceiros</a></li>
+                <li><a href="#">Hemocentros</a></li>
+                <li><a href="#">configurações</a></li>
+                <li><a href="#">Contatos</a></li>-->
+                <div class="container">
+                    <input type="checkbox" id="checkbox-menu">
+                    <label for="checkbox-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+
+
+                </div>
+
+            </Ul>
+
+        </Nav>
+
+    </header>
+    
+        <main>
+            
+            <h1>Informações Adicionais</h1>
+            <h3>Queremos Te conhecer melhor!!! </h3>
+            <h3>Para completar seu cadastro, preencha seus dados</h3>
+            <br>
+            <form class="Seperação">
+                <fieldset class="camponum">
+                    <legend>CPF</legend>
+                    <Input class="cadastro" type="text" id="CPF" name="CPF" required pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}"
+                    placeholder="">
+                </fieldset>
+                <br>
+                <fieldset class="camponum">
+                    <legend>RG</legend>
+                    <Input class="cadastro" type="number" id="RG" name="RG">
+                </fieldset>
+            </form>
+            <br>
+            <form>
+                
+                <fieldset>
+                    <legend>Nome Mãe</legend>
+                    <Input class="cadastro" type="text" id="Nome Completo" name="Nome Completo">
+                </fieldset>
+        </form>
+            <br>
+            <form>
+                
+                <fieldset>
+                    <legend>Nome Pai</legend>
+                    <Input class="cadastro" type="text" id="Nome Completo" name="Nome Completo">
+                </fieldset>
+        </form>
+        <br>
+            <form class="Seperação">
+                <fieldset class="camponum">
+                    <legend>Data de Nasc.</legend>  
+                    <Input class="cadastro" type="date" id="date" name="date">
+                </fieldset>
+            
+                <br>
+                <fieldset class="camponum">
+                    <legend>Sexo</legend>
+                    <Input class="cadastro" type="text" id="Sexo" name="Sexo">
+                        <select class="cadastro">
+                            <option>Masculino</option>
+                            <option>Feminino</option>
+                            <option>Outros Generos</option>
+                        </select>
+                </fieldset>
+                
+            </form>
+            <br>
+            <form class="Seperação">
+                <br>
+                <fieldset>
+                    <legend>Tipo Sanguíneo</legend>
+                    <Input class="cadastro" type="text" id="Sanguíneo" name="Sanguíneo">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Fator</legend>
+                    <select class="cadastro">
+                        <option>Não sei</option>
+                        <option> +Positivo</option>
+                        <option> -Negativo</option>
+                    </select>
+                </fieldset>
+            </form>
+
+        <br>
+        <p>Ao continuar, aceito os termos de uso, Codições gerais e a Politica de Privacidade</p>
+        <br>
+        <button onclik="Login" class="validarcadastro">Criar conta</button>
+        <br>
+    
+
+    
+    </main>
+
+    </div>
+</body>
+
+</html>
+
+<script src="js/script.js">
+
+
+
+
+
+
+</script>

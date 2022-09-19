@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta nome="viewport" content="width=device-width, initial-scale=1">
+    <title>Minha conta</title>
+    <link rel="stylesheet" href="css/estilos.css"> <!-- 1o CSS Reset -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header id="header">
+        <a id="logo" href=""><img src="imagem/LogoUmA+.png"></a>
+        <nav id="nav">
+
+            <Ul id="menu">
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Suporte/FAQ</a></li>
+                <li><a href="#">Minha conta</a></li>
+                <!--<li><a href="#">Parceiros</a></li>
+                <li><a href="#">Hemocentros</a></li>
+                <li><a href="#">configurações</a></li>
+                <li><a href="#">Contatos</a></li>-->
+                <div class="container">
+                    <input type="checkbox" id="checkbox-menu">
+                    <label for="checkbox-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+
+
+                </div>
+
+            </Ul>
+
+        </Nav>
+
+    </header>
+    
+        <main>
+            
+            <h1>Cadastre-se</h1>
+            <h3>Bem vindo ao Um A+ !!!</h3>
+            <h3>Para continuar, preencha com seus dados pessoais</h3>
+            <br>
+            <form>
+                
+                    <fieldset>
+                        <legend>Nome Completo</legend>
+                        <Input class="cadastro" type="text" id="Nome Completo" name="Nome Completo" required
+                            placeholder=" Digite o seu Nome">
+                    </fieldset>
+            </form>
+            <br>
+
+            <form class="Seperação">
+                <fieldset>
+                    <legend>Endereço</legend>
+                    <Input class="cadastro" type="text" id="Endereço" name="Endereço" required
+                        placeholder="Digite seu endereço">
+                </fieldset>
+                <br>
+                <fieldset class="camponum">
+                    <legend>N°</legend>
+                    <Input class="cadastro" type="number" id="N°" name="N°" required placeholder="Número">
+                </fieldset>
+            </form>
+            <br>
+            <form class="Seperação">
+                <fieldset class="camponum">
+                    <legend>Cidade</legend>
+                    <Input class="cadastro" type="text" id="Cidade" name="Cidade" required
+                        placeholder="Cidade que reside">
+                </fieldset>
+                <br>
+                <fieldset class="camponum">
+                    <legend>UF</legend>
+                    <Input class="cadastro" type="text" id="UF" name="UF" required placeholder="Estado">
+                </fieldset>
+                <br>
+                <fieldset class="camponum">
+                    <legend>Telefone</legend>
+                    <Input class="cadastro" type="tel" id="Telefone" name="Telefone" required
+                        placeholder="(XX)9XXXX-XXXX">
+                </fieldset>
+            </form>
+            <br>
+            <form class="Seperação">
+                <br>
+                <fieldset>
+                    <legend>Senha</legend>
+                    <Input class="cadastro" type="password" id="Senha" name="Senha" required
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required placeholder="EX:&Es189mL">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <select class="cadastro">
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                        <option>Outros Generos</option>
+                    </select>
+                </fieldset>
+            </form>
+
+        <br>
+        <h3>Torne sua senha mais segura:</h3>
+        <section id="text">
+            <li>Use mais de 8 digitos;</li>
+            <li>Combine letras Maiúsculas,Minusculas e Números.</li>
+            <li>Não use Informações Pessoais.</li>
+        </section>
+        <br>
+        <button onclik="Login" class="validarcadastro">Continue</button>
+        <br>
+    <p>Já tem uma conta? Clique aqui para entrar.</p>
+
+    
+    </main>
+
+    </div>
+</body>
+
+</html>
+
+<script src="js/script.js">
+
+
+
+
+
+
+</script>
