@@ -7,7 +7,8 @@
   
 }
 body {
-  background-image: url(../img/back.jpeg);
+  background-image: url(../img/background1.png);
+  background-size: cover;
 
 }
 /*barra de navegação*/
