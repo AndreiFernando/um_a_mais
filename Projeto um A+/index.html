@@ -17,18 +17,6 @@
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
 
-
-  <!--menu hamburguer<style>
-    .material-symbols-outlined {
-      font-variation-settings:
-        'FILL'0,
-        'wght'400,
-        'GRAD'0,
-        'opsz'48
-    }
-  </style>-->
-
-
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./css/swiper-bundle.min.css">
   <title>Um A+</title>
@@ -36,31 +24,32 @@
 </head>
 
 <body>
-  <nav id="esconbar">
-    <div><a href="index.html"><img src="./img/LogoUmA+.png" alt="LogoUmA+"></a></div>
-    <ul>
-      <li><a href="quemsomos.html">quem somos</a></li>
-      <li><a href="suportefaq.html">suporte/FAQ</a></li>
-      <li><a href="minhaconta.html">minha conta</a></li>
-    </ul>
-
+  <nav>
+    <div class="navbar1">
+      <div><a href="index.html"><img src="./img/LogoUmA+.png" alt="LogoUmA+"></a></div>
+      <ul>
+        <li><a href="quemsomos.html">quem somos</a></li>
+        <li><a href="suportefaq.html">suporte/FAQ</a></li>
+        <li><a href="minhaconta.html">minha conta</a></li>
+      </ul>
+    </div>
+    <!--menu hamburguer-->
+    <div class="navigation">
+      <div id="menu" onclick="onClickMenu()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+      <ul class="menunav" id="nav">
+        <li><a href="parceiros.html">parceiros</a></li>
+        <li><a href="hemocentros.html">hemocentros</a></li>
+        <li><a href="configuracoes.html">configurações</a></li>
+        <li><a href="contato.html">contatos</a></li>
+      </ul>
+    </div>
   </nav>
 
- <!--menu hamburguer-->
- <div class="navigation">
-  <div id="menu" onclick="onClickMenu()">
-    <div id="bar1" class="bar"></div>
-    <div id="bar2" class="bar"></div>
-    <div id="bar3" class="bar"></div>
-  </div>
-  <ul class="menunav" id="nav">
-    <li><a href="parceiros.html">parceiros</a></li>
-    <li><a href="hemocentros.html">hemocentros</a></li>
-    <li><a href="configuracoes.html">configurações</a></li>
-    <li><a href="contato.html">contatos</a></li>
-  </ul>
-</div>
-<!--final menu hamburguer-->
+  <!--final menu hamburguer-->
 
   <!--Menu hamburguer-->
   <!--<div class="hamburger-menu">
@@ -161,10 +150,10 @@
         </div>
       </div>
       <div class="celular">
-        <img src="./img/celular.png">
+        <img src="./img/cellog.png">
       </div>
       <div class="mensagem">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Procure no mapa um hemocentro próximo de você e crie sua conta.</p>
       </div>
     </section>
 
@@ -358,42 +347,6 @@
             accusamus hic beatae corporis tempora sed officia libero iusto, aspernatur magnam autem fugit assumenda
             exercitationem voluptas.<span class="fa fa-quote-right right"></span></p>
         </div>
-        <div class="caixa">
-          <div class="profile">
-            <div class="imgBox">
-              <img src="./img/cliente.jpg">
-            </div>
-            <h2>pessoa 5</h2>
-          </div>
-          <p><span class="fa fa-quote-left left"></span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-            dolore laudantium ullam veniam inventore
-            accusamus hic beatae corporis tempora sed officia libero iusto, aspernatur magnam autem fugit assumenda
-            exercitationem voluptas.<span class="fa fa-quote-right right"></span></p>
-        </div>
-        <div class="caixa">
-          <div class="profile">
-            <div class="imgBox">
-              <img src="./img/cliente.jpg">
-            </div>
-            <h2>pessoa 6</h2>
-          </div>
-          <p><span class="fa fa-quote-left left"></span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-            dolore laudantium ullam veniam inventore
-            accusamus hic beatae corporis tempora sed officia libero iusto, aspernatur magnam autem fugit assumenda
-            exercitationem voluptas.<span class="fa fa-quote-right right"></span></p>
-        </div>
-        <div class="caixa">
-          <div class="profile">
-            <div class="imgBox">
-              <img src="./img/cliente.jpg">
-            </div>
-            <h2>pessoa 7</h2>
-          </div>
-          <p><span class="fa fa-quote-left left"></span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-            dolore laudantium ullam veniam inventore
-            accusamus hic beatae corporis tempora sed officia libero iusto, aspernatur magnam autem fugit assumenda
-            exercitationem voluptas.<span class="fa fa-quote-right right"></span></p>
-        </div>
       </div>
     </header>
     <!--final opinião clientes-->
@@ -401,7 +354,7 @@
       <div class="content">
         <div class="top">
           <div class="logo-details">
-            <span class="logo-name"><a href ="index.html"><img src="./img/LogoUmA+.png"></a></span>
+            <span class="logo-name"><a href="index.html"><img src="./img/LogoUmA+.png"></a></span>
           </div>
         </div>
         <div class="link-boxes">
