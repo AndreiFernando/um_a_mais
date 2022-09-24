@@ -114,46 +114,46 @@
     </div>
     <!--como funciona-->
     <h2 id="titulos">como funciona?</h2>
-    <button class="pontos">pontos por doação</button>
-    <button class="pontos">pontos por indicação</button>
     <section class="indicacao">
       <div class="caixa">
         <div class="caixa-circulo">
-          <div class="numero-circulo">1</div>
-          <span class="texto">baixe o app</span>
+          <div class="numero-circulo" id="alterar">1</div>
+          <span class="texto" id="alterar">baixe o app</span>
         </div>
         <div class="linha"></div>
         <div class="caixa-circulo">
-          <div class="numero-circulo">2</div>
-          <span class="texto">procure o hemocentro mais próximo</span>
+          <div class="numero-circulo" id="alterar">2</div>
+          <span class="texto" id="alterar">procure o hemocentro mais próximo</span>
         </div>
         <div class="linha"></div>
         <div class="caixa-circulo">
-          <div class="numero-circulo">3</div>
-          <span class="texto">doe</span>
+          <div class="numero-circulo" id="alterar">3</div>
+          <span class="texto" id="alterar">doe</span>
           <div class="linha"></div>
         </div>
         <div class="caixa-circulo">
-          <div class="numero-circulo">4</div>
-          <span class="texto">escaneie o QrCode do hemocentro</span>
+          <div class="numero-circulo" id="alterar">4</div>
+          <span class="texto" id="alterar">escaneie o QrCode do hemocentro</span>
           <div class="linha"></div>
         </div>
         <div class="caixa-circulo">
-          <div class="numero-circulo">5</div>
-          <span class="texto">ganhe pontos</span>
+          <div class="numero-circulo" id="alterar">5</div>
+          <span class="texto" id="alterar">ganhe pontos</span>
           <div class="linha"></div>
         </div>
         <div class="caixa-circulo">
-          <div class="numero-circulo">6</div>
-          <span class="texto">troque seus pontos</span>
+          <div class="numero-circulo" id="alterar">6</div>
+          <span class="texto" id="alterar">troque seus pontos</span>
           <div class="linha"></div>
         </div>
       </div>
-      <div class="celular">
-        <img src="./img/cellog.png">
-      </div>
-      <div class="mensagem">
-        <p>Procure no mapa um hemocentro próximo de você e crie sua conta.</p>
+      <div class="menucelular">
+        <div class="celular">
+          <img src="./img/cellog.png" onclick="trocar()">
+        </div>
+        <div class="mensagem">
+          <p>Procure no mapa um hemocentro próximo de você e crie sua conta.</p>
+        </div>
       </div>
     </section>
 
@@ -184,9 +184,8 @@
             </div>
             <div class="card-content">
               <h2 class="name">Cinemark</h2>
-              <p class="descricao"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, recusandae illo.
-                Nulla dignissimos pariatur perspiciatis minus iste accusamus sunt, sapiente nam aliquam excepturi ea
-                provident inventore natus libero? Possimus, alias.</p>
+              <p class="descricao"> É uma empresa transnacional especializada em operar complexos cinematográficos
+                multiplex. Internacionalmente, a Cinemark está presente em diversos países da América Latina.</p>
             </div>
           </div>
           <div id="card" class="swiper-slide">
@@ -198,9 +197,9 @@
             </div>
             <div class="card-content">
               <h2 class="name">Catavento</h2>
-              <p class="descricao"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, recusandae illo.
-                Nulla dignissimos pariatur perspiciatis minus iste accusamus sunt, sapiente nam aliquam excepturi ea
-                provident inventore natus libero? Possimus, alias.</p>
+              <p class="descricao"> O Museu Catavento é um museu interativo, inaugurado em 2009 com o propósito de se
+                dedicar às ciências e sua divulgação e está localizado no Palácio das Indústrias, em São Paulo, Brasil.
+              </p>
             </div>
           </div>
           <div id="card" class="swiper-slide">
@@ -212,9 +211,9 @@
             </div>
             <div class="card-content">
               <h2 class="name">99</h2>
-              <p class="descricao"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, recusandae illo.
-                Nulla dignissimos pariatur perspiciatis minus iste accusamus sunt, sapiente nam aliquam excepturi ea
-                provident inventore natus libero? Possimus, alias.</p>
+              <p class="descricao"> A 99 é um aplicativo de transporte individual de passageiros. Com um cadastro na
+                plataforma, é possível solicitar uma corrida para um motorista parceiro que esteja por perto.
+              </p>
             </div>
           </div>
           <div id="card" class="swiper-slide">
@@ -226,9 +225,8 @@
             </div>
             <div class="card-content">
               <h2 class="name">Alura</h2>
-              <p class="descricao"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, recusandae illo.
-                Nulla dignissimos pariatur perspiciatis minus iste accusamus sunt, sapiente nam aliquam excepturi ea
-                provident inventore natus libero? Possimus, alias.</p>
+              <p class="descricao"> Alura é uma plataforma de educação à distância, que oferece cursos de tecnologia, e
+                conta atualmente com 1277 cursos e mais lançamentos semanais e atualizações. </p>
             </div>
           </div>
           <div id="card" class="swiper-slide">
@@ -240,9 +238,9 @@
             </div>
             <div class="card-content">
               <h2 class="name">Masp</h2>
-              <p class="descricao"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, recusandae illo.
-                Nulla dignissimos pariatur perspiciatis minus iste accusamus sunt, sapiente nam aliquam excepturi ea
-                provident inventore natus libero? Possimus, alias.</p>
+              <p class="descricao"> O Museu de Arte de São Paulo é um museu privado sem fins lucrativos, fundado em 1947
+                pelo empresário e mecenas Assis Chateaubriand (1892-1968), tornando-se o primeiro museu moderno no país.
+              </p>
             </div>
           </div>
           <div id="card" class="swiper-slide">
@@ -254,9 +252,8 @@
             </div>
             <div class="card-content">
               <h2 class="name">Senac</h2>
-              <p class="descricao"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, recusandae illo.
-                Nulla dignissimos pariatur perspiciatis minus iste accusamus sunt, sapiente nam aliquam excepturi ea
-                provident inventore natus libero? Possimus, alias.</p>
+              <p class="descricao"> Desde 1946, o Serviço Nacional de Aprendizagem Comercial – Senac é o principal
+                agente de educação profissional voltado para o Comércio de Bens, Serviços e Turismo do País.</p>
             </div>
           </div>
           <div id="card" class="swiper-slide">
@@ -268,9 +265,8 @@
             </div>
             <div class="card-content">
               <h2 class="name">Ticket360</h2>
-              <p class="descricao"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, recusandae illo.
-                Nulla dignissimos pariatur perspiciatis minus iste accusamus sunt, sapiente nam aliquam excepturi ea
-                provident inventore natus libero? Possimus, alias.</p>
+              <p class="descricao"> A Ticket360 é uma empresa nacional especializada na venda, administração e
+                distribuição de ingressos para shows, peças de teatro e mais.</p>
             </div>
           </div>
           <div id="card" class="swiper-slide">
@@ -282,9 +278,9 @@
             </div>
             <div class="card-content">
               <h2 class="name">Uber</h2>
-              <p class="descricao"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, recusandae illo.
-                Nulla dignissimos pariatur perspiciatis minus iste accusamus sunt, sapiente nam aliquam excepturi ea
-                provident inventore natus libero? Possimus, alias.</p>
+              <p class="descricao"> A Uber é um aplicativo de transporte individual de passageiros. Com um cadastro na
+                plataforma, é possível solicitar uma corrida para um motorista parceiro que esteja por perto.
+              </p>
             </div>
           </div>
         </div>
