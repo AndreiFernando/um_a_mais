@@ -116,43 +116,42 @@
     <h2 id="titulos">como funciona?</h2>
     <section class="indicacao">
       <div class="caixa">
-        <div class="caixa-circulo">
-          <div class="numero-circulo" id="alterar">1</div>
-          <span class="texto" id="alterar">baixe o app</span>
+        <div class="caixa-circulo" onclick="trocar1()">
+          <div class="numero-circulo" >1</div>
+          <span class="texto" >baixe o app</span>
         </div>
         <div class="linha"></div>
-        <div class="caixa-circulo">
-          <div class="numero-circulo" id="alterar">2</div>
-          <span class="texto" id="alterar">procure o hemocentro mais próximo</span>
+        <div class="caixa-circulo" onclick="trocar2()">
+          <div class="numero-circulo">2</div>
+          <span class="texto">procure o hemocentro mais próximo</span>
         </div>
         <div class="linha"></div>
-        <div class="caixa-circulo">
-          <div class="numero-circulo" id="alterar">3</div>
-          <span class="texto" id="alterar">doe</span>
-          <div class="linha"></div>
+        <div class="caixa-circulo" onclick="trocar3()">
+          <div class="numero-circulo">3</div>
+          <span class="texto">doe</span>
         </div>
-        <div class="caixa-circulo">
-          <div class="numero-circulo" id="alterar">4</div>
-          <span class="texto" id="alterar">escaneie o QrCode do hemocentro</span>
-          <div class="linha"></div>
+        <div class="linha"></div>
+        <div class="caixa-circulo" onclick="trocar4()">
+          <div class="numero-circulo">4</div>
+          <span class="texto">escaneie o QrCode do hemocentro</span>
         </div>
-        <div class="caixa-circulo">
-          <div class="numero-circulo" id="alterar">5</div>
-          <span class="texto" id="alterar">ganhe pontos</span>
-          <div class="linha"></div>
+        <div class="linha"></div>
+        <div class="caixa-circulo" onclick="trocar5()">
+          <div class="numero-circulo">5</div>
+          <span class="texto">ganhe pontos</span>
         </div>
-        <div class="caixa-circulo">
-          <div class="numero-circulo" id="alterar">6</div>
-          <span class="texto" id="alterar">troque seus pontos</span>
-          <div class="linha"></div>
+        <div class="linha"></div>
+        <div class="caixa-circulo" onclick="trocar6()">
+          <div class="numero-circulo">6</div>
+          <span class="texto">troque seus pontos</span>
         </div>
       </div>
       <div class="menucelular">
         <div class="celular">
-          <img src="./img/cellog.png" onclick="trocar()">
+          <img src="./img/cellog.png" id="alterar">
         </div>
-        <div class="mensagem">
-          <p>Procure no mapa um hemocentro próximo de você e crie sua conta.</p>
+        <div class="mensagem" id="msg">
+          <p>crie sua conta</p>
         </div>
       </div>
     </section>

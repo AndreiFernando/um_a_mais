@@ -14,8 +14,8 @@
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <!--Jquery-->
-  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"></script>
+  <!--<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>-->
   <title>Um A+</title>
 </head>
 
@@ -27,23 +27,22 @@
       <li><a href="suportefaq.html">suporte/FAQ</a></li>
       <li><a href="minhaconta.html">minha conta</a></li>
     </ul>
-  </nav>
-
-  <!--menu hamburguer-->
-  <div class="navigation">
-    <div id="menu" onclick="onClickMenu()">
-      <div id="bar1" class="bar"></div>
-      <div id="bar2" class="bar"></div>
-      <div id="bar3" class="bar"></div>
+    <!--menu hamburguer-->
+    <div class="navigation">
+      <div id="menu" onclick="onClickMenu()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+      <ul class="menunav" id="nav">
+        <li><a href="parceiros.html">parceiros</a></li>
+        <li><a href="hemocentros.html">hemocentros</a></li>
+        <li><a href="configuracoes.html">configurações</a></li>
+        <li><a href="contato.html">contatos</a></li>
+      </ul>
     </div>
-    <ul class="menunav" id="nav">
-      <li><a href="parceiros.html">parceiros</a></li>
-      <li><a href="hemocentros.html">hemocentros</a></li>
-      <li><a href="configuracoes.html">configurações</a></li>
-      <li><a href="contato.html">contatos</a></li>
-    </ul>
-  </div>
-<!--final menu hamburguer-->
+  </nav>
+  <!--final menu hamburguer-->
 
 
   <!--<div class="hamburger-menu">
@@ -73,7 +72,7 @@
   </style>-->
 
 
-<!--inicio faq-->
+  <!--inicio faq-->
   <section class="perguntas">
     <h2 class="title">FAQs</h2>
     <div class="faq">
@@ -81,7 +80,7 @@
         <h3>Como funciona?</h3>
 
         <svg width="15" height="10" viewBox="0 0 42 25">
-          <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+          <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
         </svg>
       </div>
       <div class="answer">
@@ -166,7 +165,7 @@
     <div class="content">
       <div class="top">
         <div class="logo-details">
-          <span class="logo-name"><a href ="index.html"><img src="./img/LogoUmA+.png"></a></span>
+          <span class="logo-name"><a href="index.html"><img src="./img/LogoUmA+.png"></a></span>
         </div>
       </div>
       <div class="link-boxes">
@@ -202,15 +201,13 @@
   </footer>
   <script src="./js/script.js"></script>
   <script>
+    const faqs = document.querySelectorAll(".faq");
 
-const faqs = document.querySelectorAll(".faq");
-
-faqs.forEach((faq) => {
-    faq.addEventListener("click", () => {
+    faqs.forEach((faq) => {
+      faq.addEventListener("click", () => {
         faq.classList.toggle("active");
+      });
     });
-});
-
   </script>
 
 </body>

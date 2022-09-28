@@ -314,6 +314,7 @@ nav ul li:hover a {
   height: 100%;
   align-items: center;
   justify-content: center;
+  transition: 2s;
 }
 
 .pontos {
@@ -342,6 +343,10 @@ h1 {
   cursor: pointer;
 }
 
+.caixa-circulo:active {
+   transform: translateY(4px);
+}
+
 .texto {
   margin-top: 55px;
   margin-left: 10px;
@@ -368,6 +373,11 @@ h1 {
   margin-left: 20px;
   text-align: center;
   width: 150px;
+  margin-top: 300px;
+}
+
+.menucelular{
+  display: flex;
 }
 
 @media only screen and (max-width:850px) {
@@ -934,6 +944,7 @@ svg {
   z-index: 1000;
   position: fixed;
   right: 40px;
+  top: 20px;
 }
 
 .bar {
