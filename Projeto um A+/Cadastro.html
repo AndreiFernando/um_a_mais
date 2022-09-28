@@ -16,16 +16,16 @@
 <body>
     <header id="header">
         <a id="logo" href=""><img src="imagem/LogoUmA+.png"></a>
-        <nav id="nav">
 
+<!--        <nav id="nav">
             <Ul id="menu">
                 <li><a href="#">Quem somos</a></li>
                 <li><a href="#">Suporte/FAQ</a></li>
                 <li><a href="#">Minha conta</a></li>
-                <!--<li><a href="#">Parceiros</a></li>
+                <li><a href="#">Parceiros</a></li>
                 <li><a href="#">Hemocentros</a></li>
                 <li><a href="#">configurações</a></li>
-                <li><a href="#">Contatos</a></li>-->
+                <li><a href="#">Contatos</a></li>
                 <div class="container">
                     <input type="checkbox" id="checkbox-menu">
                     <label for="checkbox-menu">
@@ -33,13 +33,34 @@
                         <span></span>
                         <span></span>
                     </label>
-
-
                 </div>
-
             </Ul>
-
         </Nav>
+-->
+<nav>
+    <div class="navbar1">
+      <!--<div><a href="index.html"><img src="./img/LogoUmA+.png" alt="LogoUmA+"></a></div>-->
+      <ul>
+        <li><a href="quemsomos.html">quem somos</a></li>
+        <li><a href="suportefaq.html">suporte/FAQ</a></li>
+        <li><a href="minhaconta.html">minha conta</a></li>
+      </ul>
+    </div>
+    <!--menu hamburguer-->
+    <div class="navigation">
+      <div id="menu" onclick="onClickMenu()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+      <ul class="menunav" id="nav">
+        <li><a href="parceiros.html">parceiros</a></li>
+        <li><a href="hemocentros.html">hemocentros</a></li>
+        <li><a href="configuracoes.html">configurações</a></li>
+        <li><a href="contato.html">contatos</a></li>
+      </ul>
+    </div>
+  </nav>
 
     </header>
     

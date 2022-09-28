@@ -174,7 +174,7 @@ nav ul li:hover a {
   width: 400%;
   height: 500px;
   display: flex;
-  margin-top: 40px
+  margin-top: 60px
 }
 
 #slides input {
@@ -1057,3 +1057,138 @@ svg {
   margin-top: 20px;
   margin-left: 20px;
 }
+
+/*css miolo cadastroteste*/
+
+.corpo {
+  margin-top: 40px;
+}
+
+h2,
+p {
+  color: rgba(250, 128, 114, 1);
+  margin-top: 63px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-inline: 12%;
+}
+
+
+
+h3,
+p {
+  color: rgba(250, 128, 114, 1);
+  margin: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-inline: 12%;
+
+}
+
+#text {
+  color: rgba(250, 128, 114, 1);
+  margin-inline: 12%;
+  text-decoration: none;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center
+}
+
+.cadastro {
+  padding: 6px;
+  border: none;
+  width: 90%;
+  height: 100%;
+  border-radius: 5px;
+  outline: none;
+
+}
+
+.validarcadastro {
+  display: block;
+  position: relative;
+  color: white;
+  background-color: rgba(250, 128, 114, 1);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  padding: 4px;
+  width: 62%;
+  height: 5%;
+  margin-inline: 12%;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.CampoNome {
+    width: 102%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ 
+  .CampoEndereco {
+    width: 85%;
+    display: flex;
+    margin-right: auto;
+  }
+
+  .CampoRua {
+    width: 85%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .CampoNum {
+    width: 9.5%;
+    height: 5%;
+    margin-right: 15px;
+    margin-left: 10px;
+  }
+  
+  .CampoCidade {
+    width: 62.5%;
+    display: flex;
+    margin-left: 160px;
+  }
+  
+  .CampoUF {
+    width: 12%;
+    display: flex;
+    margin-left: 10px;
+  }
+  
+  
+  .campoTelefone {
+    width: 27%;
+    display: flex;
+    margin-left: 10px;
+  }
+  
+  .Senha {
+    width: 75%;
+    display: flex;
+    margin-left: 160px;
+  }
+  
+  .ConfirmeSenha {
+    width: 75%;
+    /*display: flex;*/
+    margin-left: 10px;
+    margin-right: 150px;
+  }
+
+  fieldset {
+    padding: 4px;
+    width: 60%;
+    height: 30%;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+  }
