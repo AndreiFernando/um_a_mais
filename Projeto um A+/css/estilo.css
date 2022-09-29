@@ -8,16 +8,13 @@
 }
 
 body {
-  background-image: url(../img/background1.png);
-  background-size: cover;
-
+  background-image: url(../img/background.png);
 }
 
 /*barra de navegação*/
 .navbar1 {
   display: flex;
-  justify-content: space-between;
-  top: 0;
+
 }
 
 nav {
@@ -27,8 +24,7 @@ nav {
   position: fixed;
   align-items: center;
   padding: 0px 30px;
-  z-index: 999;
-  
+  z-index: 999; 
 }
 
 nav ul {
@@ -374,6 +370,7 @@ h1 {
   text-align: center;
   width: 150px;
   margin-top: 300px;
+  font-weight: bold;
 }
 
 .menucelular{
@@ -966,15 +963,10 @@ svg {
 }
 
 .menunav li a {
-  color: #0e8d88;
+  color: #EEEEEE;
   text-decoration: none;
 }
 
-.menunav li a:hover {
-  border-bottom: 3px solid #0e8d88;
-  border-radius: 3px;
-
-}
 
 .menunav li {
   list-style: none;
@@ -1004,8 +996,8 @@ svg {
 }
 
 .change {
-  background-color: #EEEEEE;
-  height: 60vh;
+  background-color: #0e8d89;
+  height: 100vh;
   margin: 0;
   position: fixed;
   font-size: 25px;
@@ -1071,12 +1063,13 @@ svg {
 
 /*css miolo cadastroteste*/
 
-.corpo {
-  margin-top: 40px;
+.forms {
+  margin-left: auto;
+  margin-right: auto;
+  width: 76%;
 }
 
-h2,
-p {
+main h2 {
   color: rgba(250, 128, 114, 1);
   margin-top: 63px;
   text-decoration: none;
@@ -1086,8 +1079,7 @@ p {
 
 
 
-h3,
-p {
+main h3 {
   color: rgba(250, 128, 114, 1);
   margin: 3px;
   text-decoration: none;
@@ -1097,109 +1089,112 @@ p {
 }
 
 #text {
-  color: rgba(250, 128, 114, 1);
+  color: #fa8072;
   margin-inline: 12%;
   text-decoration: none;
   font-weight: bold;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  max-width: 800px;
 }
 
 .cadastro {
   padding: 6px;
-  border: none;
-  width: 90%;
-  height: 100%;
   border-radius: 5px;
-  outline: none;
+}
 
+input {
+outline: none;
+width: 80%;
+border: none  ;
 }
 
 .validarcadastro {
   display: block;
-  position: relative;
   color: white;
   background-color: rgba(250, 128, 114, 1);
-  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 18px;
-  text-align: center;
   justify-content: center;
-  padding: 4px;
-  width: 62%;
-  height: 5%;
-  margin-inline: 12%;
+  padding: 10px;
+  width: 100%;
   border-radius: 8px;
   border: none;
   cursor: pointer;
-
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
+.validarcadastro:active {
+  transform: translateY(4px);
+}
+
+
 .CampoNome {
-    width: 102%;
+    width: 100%;
     display: flex;
     margin-left: auto;
     margin-right: auto;
   }
 
- 
+ .nome {
+  width: 800px;
+ }
   .CampoEndereco {
-    width: 85%;
-    display: flex;
-    margin-right: auto;
-  }
-
-  .CampoRua {
-    width: 85%;
+    width: 100%;
     display: flex;
     margin-right: auto;
     margin-left: auto;
   }
-  
-  .CampoNum {
-    width: 9.5%;
-    height: 5%;
-    margin-right: 15px;
-    margin-left: 10px;
+
+  .rua {
+    width: 800px;
   }
   
   .CampoCidade {
-    width: 62.5%;
+    width:100%;
     display: flex;
-    margin-left: 160px;
+  
   }
   
+  .cidade {
+    width: 420px;
+  }
   .CampoUF {
-    width: 12%;
     display: flex;
     margin-left: 10px;
   }
   
   
   .campoTelefone {
-    width: 27%;
     display: flex;
     margin-left: 10px;
   }
   
+  /*@media only screen and (max-width:682px) {
+    .forms .campoTelefone input{
+
+    
+      }
+    }*/
   .Senha {
-    width: 75%;
+    width: 100%;
     display: flex;
-    margin-left: 160px;
+
   }
   
+  .senha1{
+width: 390px;
+  }
   .ConfirmeSenha {
-    width: 75%;
-    /*display: flex;*/
+  width: 389px;
     margin-left: 10px;
-    margin-right: 150px;
+ 
   }
 
   fieldset {
     padding: 4px;
-    width: 60%;
     height: 30%;
     border-radius: 8px;
-    margin-left: auto;
-    margin-right: auto;
   }

@@ -58,9 +58,9 @@
         <h3>Para continuar, preencha com seus dados pessoais</h3>
 
         <br>
-
+<div class="forms">
         <form class="CampoNome">
-                <fieldset>
+                <fieldset class="nome">
                     <legend>Nome Completo</legend>
                     <Input class="cadastro" type="text" id="Nome Completo" name="Nome Completo" required
                         placeholder=" Digite o seu Nome">
@@ -69,21 +69,16 @@
         <br>
 
         <form class="CampoEndereco">
-            <fieldset>
-                <legend>Endereço</legend>
+            <fieldset class="rua">
+                <legend>Endereço e Número</legend>
                 <Input class="cadastro" type="text" id="Endereço" name="Endereço" required
-                    placeholder="Digite seu endereço">
-            </fieldset>
-            
-            <fieldset class="CampoNum">
-                <legend>N°</legend>
-                <Input class="cadastro" type="number" id="N°" name="N°" required placeholder="Número">
+                    placeholder="Digite seu endereço com Número">
             </fieldset>
         </form>
         <br>
         
         <form class="CampoCidade">
-            <fieldset>
+            <fieldset class="cidade">
                 <legend>Cidade</legend>
                 <Input class="cadastro" type="text" id="Cidade" name="Cidade" required
                     placeholder="Cidade que reside">
@@ -104,7 +99,7 @@
         <br>
         <form class="Senha">
             <br>
-            <fieldset>
+            <fieldset class="senha1">
                 <legend>Senha</legend>
                 <Input class="cadastro" type="password" id="Senha" name="Senha" required
                     pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required placeholder="Insira a senha">
@@ -116,20 +111,21 @@
                     pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required placeholder="Confirme a senha">
             </fieldset>
         </form>
-
+</div>
     <br>
     <h3>Torne sua senha mais segura:</h3>
+
     <section id="text">
         <li>Use mais de 8 digitos;</li>
         <li>Combine letras Maiúsculas,Minusculas e Números.</li>
         <li>Não use Informações Pessoais.</li>
-    </section>
-    <br>
-    <button onclik="Login" class="validarcadastro">Continue</button>
-    <br>
-<p>Já tem uma conta? Clique aqui para entrar.</p>
-
-
+        <br>
+        <button onclik="Login" class="validarcadastro">Continue</button>
+        <br>
+      </section>    
+</div>
+<h3>Já tem uma conta? <a href="#">Clique aqui para entrar.</a></h3>
+<br>
 </main>
 </header>
 
@@ -174,7 +170,7 @@
     </div>
   </footer>
  <!--fim footer-->
-
+<script src="./js/script.js"></script>
 </body>
 
 </html>
