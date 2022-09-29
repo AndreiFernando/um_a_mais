@@ -50,83 +50,98 @@
   </nav>
 <!--fim cabeçalho-->
 
-  <header>
-    <main class="corpo">
-        <br>          
-        <h2>Cadastre-se</h2>
-        <h3>Bem vindo ao Um A+ !!!</h3>
-        <h3>Para continuar, preencha com seus dados pessoais</h3>
-
-        <br>
-<div class="forms">
-        <form class="CampoNome">
-                <fieldset class="nome">
-                    <legend>Nome Completo</legend>
-                    <Input class="cadastro" type="text" id="Nome Completo" name="Nome Completo" required
-                        placeholder=" Digite o seu Nome">
-                </fieldset>
-        </form>
+<header>
+    <main>
+            <br>
+        <h2>Informações adicionais</h2>
+        <h3>Queremos te conhecer melhor!!! </h3>
+        <h3>Para completar seu cadastro, preencha mais alguns dados.</h3>
         <br>
 
-        <form class="CampoEndereco">
-            <fieldset class="rua">
-                <legend>Endereço e Número</legend>
-                <Input class="cadastro" type="text" id="Endereço" name="Endereço" required
-                    placeholder="Digite seu endereço com Número">
+    <div class="forms">
+        <form class="documentos">
+            <fieldset class="campoCpf">
+                <legend>CPF</legend>
+                <Input class="cadastro" type="text" id="CPF" name="CPF" required pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}"
+                placeholder="Digite seu CPF">
+            </fieldset>
+            <br>
+            <fieldset class="campoRg">
+                <legend>RG</legend>
+                <Input class="cadastro" type="number" id="RG" name="RG"
+                placeholder="Digite seu RG">
             </fieldset>
         </form>
         <br>
-        
-        <form class="CampoCidade">
-            <fieldset class="cidade">
-                <legend>Cidade</legend>
-                <Input class="cadastro" type="text" id="Cidade" name="Cidade" required
-                    placeholder="Cidade que reside">
-            </fieldset>
-            <br>
-            <fieldset class="CampoUF">
-                <legend>UF</legend>
-                <Input class="cadastro" type="text" id="UF" name="UF" required placeholder="Estado">
-            </fieldset>
-            <br>
-            <fieldset class="campoTelefone">
-                <legend>Telefone</legend>
-                <Input class="cadastro" type="tel" id="Telefone" name="Telefone" required
-                    placeholder="(XX)9XXXX-XXXX">
+        <form class="campoNomeMae">
+            <fieldset class="mae">
+                <legend>Nome Mãe</legend>
+                <Input class="cadastro" type="text" id="Nome Completo" name="Nome Completo">
             </fieldset>
         </form>
-        
         <br>
-        <form class="Senha">
-            <br>
-            <fieldset class="senha1">
-                <legend>Senha</legend>
-                <Input class="cadastro" type="password" id="Senha" name="Senha" required
-                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required placeholder="Insira a senha">
+        <form class="campoNomePai">            
+            <fieldset class="pai">
+                <legend>Nome Pai</legend>
+                <Input class="cadastro" type="text" id="Nome Completo" name="Nome Completo">
             </fieldset>
-            <br>
-            <fieldset class="ConfirmeSenha">
-                <legend>Senha</legend>
-                <Input class="cadastro" type="password" id="ConfirmeSenha" name="ConfirmeSenha" required
-                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required placeholder="Confirme a senha">
-            </fieldset>
-        </form>
-</div>
+    </form>
     <br>
-    <h3>Torne sua senha mais segura:</h3>
-
+        <form class="campoNascSexo">
+            <fieldset class="nascimento">
+                <legend>Data de Nasc.</legend>  
+                <Input class="cadastro" type="date" id="date" name="date">
+            </fieldset>
+        
+            <br>
+            <fieldset class="sexo">
+                <legend>Sexo</legend>
+                <!--<Input class="cadastro2" type="text" id="Sexo" name="Sexo">-->
+                    <select class="cadastro2">
+                        <option>Selecione...</option>
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                        <option>Outros Generos</option>
+                    </select>
+            </fieldset>
+        </form>
+        <br>
+        <form class="campoTipo_e_fator">
+            <br>
+            <fieldset class="tipo">
+                <legend>Tipo Sanguíneo</legend>
+                <!--<Input class="cadastro" type="text" id="Sanguíneo" name="Sanguíneo">-->
+                  <select class="cadastro2">
+                    <option>Selecione...</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>AB</option>
+                    <option>O</option>
+                    <option>Não sei</option>
+                  </select>
+            </fieldset>
+            <br>
+            <fieldset class="campoFator">
+                <legend>Fator</legend>
+                <select class="cadastro2">
+                    <option>Selecione...</option>
+                    <option> ( + ) Positivo</option>
+                    <option> ( - ) Negativo</option>
+                    <option>Não sei</option>
+                </select>
+            </fieldset>
+        </form>
+    </div>
+    <br>
+    <h3>Ao continuar, aceito os termos de uso, <a href="#">Codições gerais </a> e <a href="#">Politica de Privacidade</a></h3>
+    <br>
     <section id="text">
-        <li>Use mais de 8 digitos;</li>
-        <li>Combine letras Maiúsculas,Minusculas e Números.</li>
-        <li>Não use Informações Pessoais.</li>
-        <br>
-        <button onclik="Login" class="validarcadastro">Continue</button>
-        <br>
-      </section>    
-</div>
-<h3>Já tem uma conta? <a href="#">Clique aqui para entrar.</a></h3>
-<br>
+    <button onclik="Login" class="validarcadastro">Criar conta</button>
+    </section>  
+    <br>
 </main>
+
+
 </header>
 
 <!--Inicio footer-->

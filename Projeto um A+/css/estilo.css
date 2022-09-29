@@ -1067,6 +1067,7 @@ svg {
   margin-left: auto;
   margin-right: auto;
   width: 76%;
+
 }
 
 main h2 {
@@ -1101,12 +1102,13 @@ main h3 {
 .cadastro {
   padding: 6px;
   border-radius: 5px;
+  background-color: #f7f8f8a0;
 }
 
 input {
 outline: none;
-width: 80%;
-border: none  ;
+width: 90%;
+border: none;
 }
 
 .validarcadastro {
@@ -1189,7 +1191,7 @@ width: 390px;
   }
   .ConfirmeSenha {
   width: 389px;
-    margin-left: 10px;
+  margin-left: 10px;
  
   }
 
@@ -1198,3 +1200,99 @@ width: 390px;
     height: 30%;
     border-radius: 8px;
   }
+
+  /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<css miolo cadastro2>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+  /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<css miolo cadastro2>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+  /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<css miolo cadastro2>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+  .documentos {
+    width: 100%;
+    display: flex;
+  }
+  
+  .campoCpf {
+    width: 390px;
+  }
+  
+  .campoRg {
+    width: 389px;
+    margin-left: 10px;
+  }
+
+  .campoNomeMae {
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mae {
+    width: 800px;
+  }
+  
+  .campoNomePai {
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pai {
+    width: 800px;
+  }
+
+  .campoNascSexo {
+    width: 100%;
+    display: flex;
+  }
+
+  .nascimento{
+    width: 390px;
+  }
+  
+  .cadastro2 {
+    padding: 6px;
+    border: none;
+    width: 98%;
+    height: 100%;
+    border-radius: 5px;
+    outline: none;
+    background-color: #f7f8f8a0;
+  }
+  
+  .sexo {
+    padding: 4px;
+    width: 389px;
+    height: 30%;
+    border-radius: 8px;
+    margin-left: 10px;
+  }
+ 
+  
+  .campoTipo_e_fator {
+    width: 100%;
+    display: flex;
+  }
+
+  .tipo {
+    width: 389px;
+
+  }
+  
+  .campoFator {
+    padding: 4px;
+    width: 389px;
+    height: 30%;
+    border-radius: 8px;
+    margin-left: 10px;
+  }
+
+  legend,
+option {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(12, 11, 11);
+  font-weight: lighter;
+}
+
+
+
