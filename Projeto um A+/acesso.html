@@ -53,94 +53,53 @@
 <header>
     <main>
             <br>
-        <h2>Informações adicionais</h2>
-        <h3>Queremos te conhecer melhor!!! </h3>
-        <h3>Para completar seu cadastro, preencha mais alguns dados.</h3>
+        <h2>Acesse sua conta</h2>
+        <h3>Bem vindo ao Um A+</h3>
+        <h3>Doe, salve vidas, ganhe pontos e resgate !!!</h3>
+        <br>
         <br>
 
     <div class="forms">
-        <form class="documentos">
-            <fieldset class="campoCpf">
-                <legend>CPF</legend>
-                <Input class="cadastro" type="text" id="CPF" name="CPF" required pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}"
-                placeholder="Digite seu CPF">
+        <form class="campoEmail">
+            <fieldset class="email">
+                <legend>E-mail</legend>
+                <Input class="cadastro" type="text" id="email" name="email" required pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}"
+                placeholder="Digite seu E-mail">
             </fieldset>
+        </form>    
             <br>
+            <br>
+        <form class="senhaAcesso">    
+            <fieldset class="s_Acesso">
+                <legend>Senha</legend>
+                <Input class="cadastro" type="number" id="senhaAcesso" name="senhaAcesso"
+                placeholder="Digite sua Senha">
+            </fieldset>
+        </form>
 
-            <fieldset class="campoRg">
-                <legend>RG</legend>
-                <Input class="cadastro" type="number" id="RG" name="RG"
-                placeholder="Digite seu RG">
-            </fieldset>
-        </form>
-        <br>
-
-        <form class="campoNomeMae">
-            <fieldset class="mae">
-                <legend>Nome Mãe</legend>
-                <Input class="cadastro" type="text" id="Nome Completo" name="Nome Completo">
-            </fieldset>
-        </form>
-        <br>
-        <form class="campoNomePai">            
-            <fieldset class="pai">
-                <legend>Nome Pai</legend>
-                <Input class="cadastro" type="text" id="Nome Completo" name="Nome Completo">
-            </fieldset>
-    </form>
+</div>    
     <br>
-        <form class="campoNascSexo">
-            <fieldset class="nascimento">
-                <legend>Data de Nasc.</legend>  
-                <Input class="cadastro" type="date" id="date" name="date">
-            </fieldset>
-        
-            <br>
-            <fieldset class="sexo">
-                <legend>Sexo</legend>
-                <!--<Input class="cadastro2" type="text" id="Sexo" name="Sexo">-->
-                    <select class="cadastro2">
-                        <option>Selecione...</option>
-                        <option>Masculino</option>
-                        <option>Feminino</option>
-                        <option>Outros Generos</option>
-                    </select>
-            </fieldset>
-        </form>
-        <br>
-        <form class="campoTipo_e_fator">
-            <br>
-            <fieldset class="tipo">
-                <legend>Tipo Sanguíneo</legend>
-                <!--<Input class="cadastro" type="text" id="Sanguíneo" name="Sanguíneo">-->
-                  <select class="cadastro2">
-                    <option>Selecione...</option>
-                    <option>A</option>
-                    <option>B</option>
-                    <option>AB</option>
-                    <option>O</option>
-                    <option>Não sei</option>
-                  </select>
-            </fieldset>
-            <br>
-            <fieldset class="campoFator">
-                <legend>Fator</legend>
-                <select class="cadastro2">
-                    <option>Selecione...</option>
-                    <option> ( + ) Positivo</option>
-                    <option> ( - ) Negativo</option>
-                    <option>Não sei</option>
-                </select>
-            </fieldset>
-        </form>
-    </div>
-    <br>
-    <h3>Ao continuar, aceito os termos de uso, <a href="#">Codições gerais </a> e <a href="#">Politica de Privacidade</a></h3>
     <br>
     <section id="text">
-    <button onclik="Login" class="validarcadastro">Criar conta</button>
-    </section>  
+            <button onclik="Login" class="validarcadastro">Entrar</button>
+    </section>
+    <div class="forms">
+    <h3 class="acesso"><a href="#"> Esqueceu a senha? </a></h3>
+    <br>  
     <br>
+</div>
+
+    <br>    
+
+    <section id="text">
+        <button onclik="Login" class="validarcadastro">Cadastrar</button>
+    </section>
+
+    <br>
+    <br>  
+    <br>  
+    <br>  
+
 </main>
 
 
