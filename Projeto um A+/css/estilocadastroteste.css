@@ -102,8 +102,7 @@ footer .content .top {
   justify-content: space-between;
   margin-bottom: 50px;
 }
-
-.logo-details {
+/*.logo-details {
   color: #EEEEEE;
   font-size: 30px;
 }
@@ -111,7 +110,7 @@ footer .content .top {
 .logo-name img {
   width: 70px;
   height: 50px;
-}
+}*/
 
 .link-boxes {
   width: 100%;
@@ -258,9 +257,9 @@ footer .content .top {
     position: relative;
   }
 
-  .logo-details {
+  /*.logo-details {
     font-size: 26px;
-  }
+  }*/
 
   footer .content .link-boxes .box {
     width: calc(100% / 3 - 10px);
