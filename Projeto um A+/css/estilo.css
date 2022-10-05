@@ -78,7 +78,7 @@ nav ul li:hover a {
 
 #slides {
   width: 400%;
-  height: 500px;
+  height: 650px;
   display: flex;
   margin-top: 60px
 }
@@ -127,7 +127,7 @@ nav ul li:hover a {
 }
 
 #navigation-auto div {
-  border: 1px solid black;
+  border: 1px solid #EEEEEE;
   padding: 5px;
   border-radius: 100%;
   cursor: pointer;
@@ -137,7 +137,7 @@ nav ul li:hover a {
 #navigation-auto {
   position: absolute;
   width: 100%;
-  margin-top: 450px;
+  margin-top: 600px;
   display: flex;
   justify-content: center;
 }
@@ -147,15 +147,15 @@ nav ul li:hover a {
 }
 
 #radio1:checked~#navigation-auto .auto-btn1 {
-  background-color: black;
+  background-color:#EEEEEE;
 }
 
 #radio2:checked~#navigation-auto .auto-btn2 {
-  background-color: black;
+  background-color: #EEEEEE;
 }
 
 #radio3:checked~#navigation-auto .auto-btn3 {
-  background-color: black;
+  background-color: #EEEEEE;
 }
 
 /*Fim do carrosel*/
