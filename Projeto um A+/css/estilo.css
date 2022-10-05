@@ -4,7 +4,6 @@
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
-
 }
 
 body {
@@ -14,7 +13,6 @@ body {
 /*barra de navegação*/
 .navbar1 {
   display: flex;
-
 }
 
 nav {
@@ -268,8 +266,9 @@ h1 {
 .celular img {
   height: 500px;
   margin-top: 70px;
-
+  transition: opacity 2s;
 }
+
 
 .mensagem {
   margin-left: 20px;
@@ -495,7 +494,6 @@ h1 {
 
 footer {
   width: 100%;
-  position: absolute;
   background: #0e8d88;
   color: #EEEEEE;
   padding: 50px 30px;
@@ -671,11 +669,12 @@ header {
   position: relative;
   width: 290px;
   color: #EEEEEE;
-  background: #222;
+ 
   margin: 40px 10px;
   padding: 30px 20px;
   border-radius: 10px;
   transition: 0.3s ease;
+  border: 1px solid #222;
 }
 
 .wrapper .caixa .profile {
@@ -692,9 +691,10 @@ header {
   height: 100px;
   width: 100px;
   margin: auto;
-  border: 2px solid #EEEEEE;
+  border: 2px solid #222;
   border-radius: 50%;
   cursor: pointer;
+  
 }
 
 .wrapper .caixa .profile .imgBox img {
@@ -716,18 +716,20 @@ header {
 .wrapper .caixa .profile h2 {
   padding: 5px 0;
   text-transform: capitalize;
-  color: #EEEEEE;
+  color: #222;
   letter-spacing: 1px;
   text-align: center;
+  font-weight: bold;
 }
 
 .wrapper .caixa p {
   margin-top: 80px;
-  color: #EEEEEE;
+  color: #222;
   padding: 0 8px;
   font-size: 15px;
   opacity: 0.8;
   text-align: center;
+  font-weight: bold;
 }
 
 .wrapper .caixa .left {
@@ -981,7 +983,6 @@ main h3 {
   align-items: center;
   justify-content: center;
   max-width: 800px;
-
 }
 
 .cadastro {
@@ -1010,6 +1011,7 @@ input {
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .validarcadastro:active {
