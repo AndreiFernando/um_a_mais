@@ -4,6 +4,7 @@
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 body {
@@ -145,7 +146,7 @@ nav ul li:hover a {
 }
 
 #radio1:checked~#navigation-auto .auto-btn1 {
-  background-color:#EEEEEE;
+  background-color: #EEEEEE;
 }
 
 #radio2:checked~#navigation-auto .auto-btn2 {
@@ -241,6 +242,7 @@ h1 {
   cursor: pointer;
 }
 
+
 .caixa-circulo:active {
   transform: translateY(4px);
 }
@@ -266,9 +268,18 @@ h1 {
 .celular img {
   height: 500px;
   margin-top: 70px;
-  transition: opacity 2s;
+  animation: opacity 0.5s;
 }
 
+@keyframes opacity {
+  from {
+    opacity: 0%
+  }
+
+  to {
+    opacity: 100%
+  }
+}
 
 .mensagem {
   margin-left: 20px;
@@ -318,21 +329,22 @@ h1 {
 
 @media only screen and (max-width:500px) {
 
-.mensagem  {
-  margin-top: 20px;
-  text-align: center;
-  margin-bottom: 100px;
-  margin-left: 45px;
- 
+  .mensagem {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 45px;
+
+  }
+
+  .menucelular {
+    top: 0;
+    width: 100%;
+    display: block;
+  }
+
 }
 
-.menucelular {
-  top: 0;
-  width: 100%;
-  display: block;
-}
-
-}
 /*final de como funciona*/
 
 /*sepração de página*/
@@ -660,16 +672,17 @@ header {
   margin-top: 30px;
 }
 
-@media only screen and (max-width:850px) { 
+@media only screen and (max-width:850px) {
   .wrapper {
     margin-top: -216px;
   }
 }
+
 .wrapper .caixa {
   position: relative;
   width: 290px;
   color: #EEEEEE;
- 
+
   margin: 40px 10px;
   padding: 30px 20px;
   border-radius: 10px;
@@ -694,7 +707,7 @@ header {
   border: 2px solid #222;
   border-radius: 50%;
   cursor: pointer;
-  
+
 }
 
 .wrapper .caixa .profile .imgBox img {
@@ -827,7 +840,7 @@ svg {
   z-index: 1000;
   position: fixed;
   right: 40px;
-  top: 20px;
+  top: 26px;
 }
 
 .bar {
