@@ -21,31 +21,42 @@ function onClickMenu() {
     document.getElementById("nav").classList.toggle("change");
 }
 
-function trocar1() {
-    document.getElementById("alterar").src = "./img/Celularlogo.png"
-    document.getElementById("msg").innerText = "crie sua conta"
 
-    const botaoAnimar = document.getElementById("animar1");
+
+function trocar(imagem, texto) {
+    document.getElementById("alterar").src = imagem;
+    document.getElementById("msg").innerText = texto;
+}
+
+function aoClicar(imagem, texto) {
     const caixa = document.querySelector(".menucelular");
-if (botaoAnimar.addEventListener("click")) {
-   setTimeout(() => caixa.style.animation = "opacity 1s linear");
-    };
     caixa.style.animation = "";
-    
+    trocar(imagem, texto)
+    setTimeout(() => caixa.style.animation = "opacity 1s linear");    
+}
+
+
+
+function trocar1() {
+    document.getElementById("alterar").src = "./img/Celularlogo.png";
+    document.getElementById("msg").innerText = "crie sua conta";
 }
 
 function trocar2() {
 
-    document.getElementById("alterar").src = "./img/Celularmapa.png"
-    document.getElementById("msg").innerText = "Procure no mapa um hemocentro próximo de você!"
+    document.getElementById("alterar").src = "./img/Celularmapa.png";
+    document.getElementById("msg").innerText = "Procure no mapa um hemocentro próximo de você!";
 
     const botaoAnimar = document.getElementById("animar2");
-    
-    const caixa = document.querySelector(".menucelular").style.animation = "opacity 1s linear";
-    botaoAnimar = caixa.style.animation = "opacity 1s linear";
+    const caixa = document.querySelector(".menucelular");
+
+    botaoAnimar.addEventListener("click", () => {
+        caixa.style.animation = "";
+        setTimeout(() => caixa.style.animation = "opacity 1s linear");
 
 
-    
+    });
+
      }
 
 
