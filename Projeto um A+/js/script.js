@@ -22,7 +22,6 @@ function onClickMenu() {
 }
 
 function trocar1() {
-
     document.getElementById("alterar").src = "./img/Celularlogo.png"
     document.getElementById("msg").innerText = "crie sua conta"
 }
