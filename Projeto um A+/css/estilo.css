@@ -495,7 +495,7 @@ h1 {
 
 .swiper-button-next:after,
 .swiper-button-prev:after {
-  color: #EEEEEE;
+  color: #0e8d88;
   margin-top: 60px;
 }
 
@@ -931,7 +931,7 @@ svg {
 /*inicio quem somos*/
 
 .quemsomos {
-  margin-top: 62px;
+  margin-top: 80px;
   max-width: 50%;
   text-align: justify;
   position: relative;
@@ -959,6 +959,8 @@ svg {
   margin-top: 20px;
   margin-left: 20px;
 }
+
+
 
 /*css miolo cadastroteste*/
 
@@ -1248,13 +1250,13 @@ option {
 }
 
 
-.fa-solid {
+/*.fa-solid {
   font-size: 45px;
   color: rgba(250, 128, 114, 1);
   margin-left: 250px;
   margin-top: 60px;
 
-}
+}*/
 
 .nomeUser {
   color: rgba(250, 128, 114, 1);
