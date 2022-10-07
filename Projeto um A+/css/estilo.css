@@ -1250,16 +1250,28 @@ option {
 }
 
 
-/*.fa-solid {
+.fas {
   font-size: 45px;
   color: rgba(250, 128, 114, 1);
-  margin-left: 250px;
+  margin-left: 180px;
   margin-top: 60px;
-
-}*/
+}
 
 .nomeUser {
   color: rgba(250, 128, 114, 1);
   margin-left: 15px;
   margin-top: 70px;
+}
+
+.pontos1 {
+  color: rgba(250, 128, 114, 1);
+  margin-left: 270px;
+  margin-top: 70px;
+}
+
+.got {
+  font-size: 45px;
+  color: rgba(250, 128, 114, 1);
+  margin-left: 10spx;
+  margin-top: 60px;
 }
