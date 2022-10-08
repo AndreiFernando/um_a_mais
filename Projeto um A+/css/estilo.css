@@ -1345,6 +1345,134 @@ option {
   margin-left: 185px;
 }
 
+/*início hemocentros favoritos*/
+
+  .favoritoslinha2 {
+  display: flex;
+  height: 50px;
+}
+
+.estrelahemocentro {
+  display: flex;
+}
+
+.favoritoslinha3 {
+  height: 50px;
+}
+
+.favoritehemo1 {
+  font-size: 15px;
+  color: #0e8d89;
+  margin-left: 105px;
+  margin-top: 91px;
+}
+
+.favoritehemo {
+  font-size: 15px;
+  color: #0e8d89;
+  margin-left: 5px;
+  margin-top: 91px;
+}
+
+.estrelaagenda {
+  display: flex;
+  margin-top: 10px;
+}
+
+.favoriteagenda1 {
+  font-size: 15px;
+  color: #0e8d89;
+  margin-left: 487px;
+  margin-top: 12px;
+}
+
+.favoriteagenda {
+  font-size: 15px;
+  color: #0e8d89;
+  margin-left: 5px;
+  margin-top: 12px;
+}
+
+.estrelalimpeza {
+  display: flex;
+}
+
+.favoritelimpeza1 {
+  font-size: 15px;
+  color: #0e8d89;
+  margin-left: 481px;
+  margin-top: 12px;
+}
+
+.favoritelimpeza {
+  font-size: 15px;
+  color: #0e8d89;
+  margin-left: 5px;
+  margin-top: 12px;
+}
+
+.estrelaatendimento {
+  display: flex;
+}
+
+.favoriteatendimento1 {
+  font-size: 15px;
+  color: #0e8d8954;
+  margin-left: 447px;
+  margin-top: 12px;
+}
+
+.favoriteatendimento4 {
+  font-size: 15px;
+  color: #0e8d8954;
+  margin-left: 4px;
+  margin-top: 12px;
+}
+
+.favoriteatendimento {
+  font-size: 15px;
+  color: #0e8d89;
+  margin-left: 5px;
+  margin-top: 12px;
+}
+
+
+
+.nomeUser1 {
+  color: rgba(250, 128, 114, 1);
+  margin-left: 300px;
+  margin-top: 85px;
+  font-weight: bold;
+
+}
+
+.criterios1 {
+  color: #0e8d89;
+  margin-left: 300px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.favoritoslinha4 {
+  height: 50px;
+  margin-bottom: 250px;
+}
+
+.estrelahemocentro2 {
+  display: flex;
+  margin-top: 150px;
+}
+
+.favoritehemo2 {
+  font-size: 15px;
+  color: #0e8d89;
+  margin-left: 165px;
+  margin-top: 91px;
+}
+
+
+
+/*fim hemocentros favoritos*/
 
 /*início hemocentros*/
 .hemocentros {
