@@ -1275,3 +1275,58 @@ option {
   margin-left: 10spx;
   margin-top: 60px;
 }
+/*início hemocentros*/
+.hemocentros {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#titulo2 {
+  font-weight: bold;
+}
+
+.hemocentros a {
+  font-weight: bold;
+}
+
+.hemo {
+  margin-top: 80px;
+}
+
+.fotos img {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top: 100px;
+  right: 50px;
+}
+
+
+.fotos2 img {
+
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top: 300px;
+  right: 500px;
+}
+
+.fotos3 img {
+
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top: 500px;
+  right: 50px;
+}
+
+.fotos4 img {
+
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top: 700px;
+  right: 500px;
+}
+/*final hemocentros*/
