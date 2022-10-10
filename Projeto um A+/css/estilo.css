@@ -526,6 +526,13 @@ footer {
   justify-content: space-between;
 }
 
+@media only screen and (max-width:385px) {
+  .row {
+    display: block;
+
+  }
+}
+
 .logo-rodape {
   width: 100px;
   height: 60px;
@@ -678,6 +685,7 @@ header {
 @media only screen and (max-width:850px) {
   .wrapper {
     margin-top: -216px;
+    margin-bottom: 200px;
   }
 }
 
@@ -971,7 +979,6 @@ svg {
   margin-left: auto;
   margin-right: auto;
   width: 76%;
-
 }
 
 main h2 {
@@ -1237,26 +1244,17 @@ option {
   width: 100%;
   font-size: 14px;
   color: #0e8d89;
-  margin-left: 345px;
-  display: flex;
-  font-weight: bold
+  text-align: center;
 }
 
-
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<css Minha conta >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<css Minha conta >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<css Minha conta >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
-#corp{
-  width: 100%;
-  height: 100%;
-}
 
 .sangues {
   width: 100%;
 }
-
-
 
 .fas {
   font-size: 45px;
@@ -1286,14 +1284,12 @@ option {
   margin-top: 60px;
 }
 
-
-
-.linha1{
+.linha1 {
   display: flex;
   height: 100px;
-}
+ }
 
-.linha2{
+.linha2 {
   display: flex;
   height: 50px;
 }
@@ -1304,7 +1300,7 @@ option {
   margin-left: 189px;
 }
 
-.linha3{
+.linha3 {
   display: flex;
   height: 50px;
 }
@@ -1315,42 +1311,43 @@ option {
   margin-left: 180px;
 }
 
-.linha4{
+.linha4 {
   display: flex;
   height: 50px;
 }
 
-.market{
+.market {
   font-size: 35px;
   color: #0e8d89;
   margin-left: 180px;
 }
 
-.linha5{
+.linha5 {
   display: flex;
   height: 50px;
 }
 
-.dadospessoais{
+.dadospessoais {
   font-size: 35px;
   color: #0e8d89;
 }
 
 
-.linha6{
+.linha6 {
   display: flex;
   margin-bottom: 200px;
 }
 
-.configuracoes{
+.configuracoes {
   font-size: 35px;
   color: #0e8d89;
   margin-left: 185px;
 }
 
-/*início hemocentros favoritos*/
+/*início 
+centros favoritos*/
 
-  .favoritoslinha2 {
+.favoritoslinha2 {
   display: flex;
   height: 50px;
 }
@@ -1482,9 +1479,10 @@ option {
   margin-left: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
+
 }
 
- #titulo2 {
+#titulo2 {
   font-weight: bold;
 
 }
@@ -1495,48 +1493,29 @@ option {
 
 .hemo {
   margin-top: 80px;
+  position: relative;
+  width: 50%;
 }
 
-.fotos img {
-  width: 400px;
-  height: 300px;
+#slider iframe {
   position: absolute;
+  right: 100px;
   top: 100px;
-  right: 50px;
+  max-width: 30%;
 }
 
+@media only screen and (max-width:768px) {
+  #slider iframe {
+    display: none;
 
-.fotos2 img {
+  }}
 
-  width: 400px;
-  height: 300px;
-  position: absolute;
-  top: 300px;
-  right: 500px;
-}
 
-.fotos3 img {
-
-  width: 400px;
-  height: 300px;
-  position: absolute;
-  top: 500px;
-  right: 50px;
-}
-
-.fotos4 img {
-
-  width: 400px;
-  height: 300px;
-  position: absolute;
-  top: 700px;
-  right: 500px;
-}
 /*final hemocentros*/
 
 /*Parceiros*/
 
-.corpparceiros{
+.corpparceiros {
   width: 100%;
   height: 100%;
 }
@@ -1554,43 +1533,43 @@ option {
   margin-left: 180px;
 }
 
-.market4_1_2{
+.market4_1_2 {
   font-size: 35px;
   color: #0e8d89;
   margin-left: 570px;
 }
 
-#nomeUser2{
+#nomeUser2 {
   color: #ffff;
   margin-top: 10px;
   font-weight: bold;
   text-align: center;
 }
 
-.faixa_loja_parceiros{
+.faixa_loja_parceiros {
   background-color: #0e8d88;
-  width: 400px;
+  width: 100%;
   height: 70px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.titulo3{
-margin-left: 150px;
+.titulo3 {
+  margin-left: 150px;
 }
 
-#titulo3_1{
-margin-left:  470PX;
+#titulo3_1 {
+  text-align: center;
 }
 
 /* Histórico */
 
 .historico {
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 .historico2 {
-margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 .historico1 {
@@ -1604,7 +1583,7 @@ margin-bottom:10px;
 
 .historico2_1 {
   display: flex;
-  margin-bottom:295px;
+  margin-bottom: 295px;
   margin-top: 10px;
   margin-left: 245px;
   color: #0e8d89;
